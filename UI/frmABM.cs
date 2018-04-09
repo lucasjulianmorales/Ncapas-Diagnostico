@@ -33,15 +33,25 @@ namespace UI
 
         private void CargaCliente(Cliente C) //Intancio el objeto cliente
         {
-            int nro = 0;
-            if (!int.TryParse(txbNumero.Text, out nro)) ;
-            {
-                MessageBox.Show("Ingrese un Numero por favor");
-            }
-            C.Numero = Convert.ToInt32(txbNumero.Text);
+            int nro = Validacion();
+
+            C.Numero = nro;
             C.Nombre = txbNombre.Text;
             C.Telefono = txbTel.Text;
             C.Fecha_Nacimiento = Convert.ToDateTime(txbFechaNac.Text);
+        }
+
+        private int Validacion()
+        {
+            int nro = 0;
+
+
+            if (!int.TryParse(txbNumero.Text, out nro))
+            {
+                MessageBox.Show("Ingrese un nro por favor");
+            }
+
+            return nro;
         }
 
         private void frmABM_Load(object sender, EventArgs e)

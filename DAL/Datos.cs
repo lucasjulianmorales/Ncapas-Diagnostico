@@ -18,7 +18,7 @@ namespace DAL
             conexion.Open();
             SqlCommand Cmm = conexion.CreateCommand();
 
-            Cmm.CommandText = "Select Count(ID_cliente) From Cliente Where ID_cliente = @ID_cliente";
+            Cmm.CommandText = "SELECT COUNT(ID_cliente) FROM Cliente WHERE ID_cliente = @ID_cliente";
             Cmm.Parameters.AddWithValue("@ID_cliente", newCliente.Numero);
 
             newCliente.Numero = (int)Cmm.ExecuteScalar();
@@ -33,7 +33,7 @@ namespace DAL
             conexion.Open();
             SqlCommand Cmm = conexion.CreateCommand();
 
-            Cmm.CommandText = "INSERT INTO CLIENTE (ID_cliente, NOMBRE, FECHA_NAC, TELEFONO) OUTPUT INSERTED.ID_cliente VALUES (@ID_cliente, @Nombre, @Fecha_nac, @Telefono)";
+            Cmm.CommandText = "INSERT INTO CLIENTE (ID_cliente, Nombre, Fecha_nac , Telefono) OUTPUT INSERTED.ID_cliente VALUES (@ID_cliente, @Nombre, @Fecha_nac, @Telefono)";
 
             Cmm.Parameters.AddWithValue("@ID_cliente", newCliente.Numero);
             Cmm.Parameters.AddWithValue("@Nombre", newCliente.Nombre);
@@ -58,6 +58,18 @@ namespace DAL
 
         public void UpdCliente(Cliente updCliente)
         {
+            SqlConnection conexion = new SqlConnection("Data Source = DESKTOP-HJ3D0O9\\sqlExpress; Initial Catalog = test; Integrated Security = True");
+            conexion.Open();
+            SqlCommand Cmm = conexion.CreateCommand();
+
+            Cmm.CommandText = "UPDATE CLIENTE SET ID_cliente = @ID_cliente, NOMBRE = @Nombre, FECHA_NAC = @Fecha_nac, TELEFONO = @Telefono WHERE ID_cliente = @ID_cliente";
+            Cmm.Parameters.AddWithValue("@ID_cliente", updCliente.Numero);
+            Cmm.Parameters.AddWithValue("@Nombre", updCliente.Nombre);
+            Cmm.Parameters.AddWithValue("@Fecha_nac", updCliente.Fecha_Nacimiento);
+            Cmm.Parameters.AddWithValue("Telefono", updCliente.Telefono);
+
+            Cmm.ExecuteNonQuery();
+            conexion.Close();
 
         }
 
