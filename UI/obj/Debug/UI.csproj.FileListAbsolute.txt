@@ -1,0 +1,16 @@
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\UI\obj\Debug\UI.frmABM.resources
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\UI\obj\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\UI\bin\Debug\UI.exe.config
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\UI\bin\Debug\UI.exe
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\UI\bin\Debug\UI.pdb
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\UI\bin\Debug\BLL.dll
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\UI\bin\Debug\Entity.dll
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\UI\bin\Debug\DAL.dll
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\UI\bin\Debug\BLL.pdb
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\UI\bin\Debug\Entity.pdb
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\UI\bin\Debug\DAL.pdb
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\UI\obj\Debug\UI.exe
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\UI\obj\Debug\UI.pdb

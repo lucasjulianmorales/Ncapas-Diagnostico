@@ -1,0 +1,6 @@
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\Entity\bin\Debug\Entity.dll
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\Entity\bin\Debug\Entity.pdb
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\Entity\obj\Debug\Entity.dll
+C:\Users\lucas\source\repos\Ncapas-Diagnostico\Entity\obj\Debug\Entity.pdb
